@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "521960573484",
+    "firebase_url": "https://ballblast-f9daa-default-rtdb.firebaseio.com",
+    "project_id": "ballblast-f9daa",
+    "storage_bucket": "ballblast-f9daa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521960573484:android:49d2c962434f34af3fdf89",
+        "android_client_info": {
+          "package_name": "com.DegenerationX.BallBlast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521960573484-qg2ps4o7g7hf69d5ibp5kc8sob7t4mhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhRXpMrkiMrXHph8gTtuifKubjT2wWNG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521960573484-qg2ps4o7g7hf69d5ibp5kc8sob7t4mhs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

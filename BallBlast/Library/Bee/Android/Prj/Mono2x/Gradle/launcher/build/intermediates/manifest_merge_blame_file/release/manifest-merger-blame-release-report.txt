@@ -1,0 +1,350 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DegenerationX.BallBlast"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+20    <uses-feature
+20-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-15:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:9-55
+22        android:required="false" />
+22-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-33
+23    <uses-feature
+23-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:5-18:36
+24        android:name="android.hardware.touchscreen"
+24-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:9-52
+25        android:required="false" />
+25-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:9-33
+26    <uses-feature
+26-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-21:36
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:9-63
+28        android:required="false" />
+28-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-33
+29    <uses-feature
+29-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:5-24:36
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-72
+31        android:required="false" />
+31-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-33
+32
+33    <uses-permission android:name="android.permission.INTERNET" />
+33-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:23:5-67
+33-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:23:22-64
+34    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+34-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:24:5-79
+34-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:24:22-76
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->[:com.google.android.gms.play-services-measurement-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\40aa455721f6fa6911731a0723c6e2da\com.google.android.gms.play-services-measurement-21.1.1\AndroidManifest.xml:25:5-68
+35-->[:com.google.android.gms.play-services-measurement-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\40aa455721f6fa6911731a0723c6e2da\com.google.android.gms.play-services-measurement-21.1.1\AndroidManifest.xml:25:22-65
+36    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+36-->[:com.google.android.gms.play-services-measurement-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\40aa455721f6fa6911731a0723c6e2da\com.google.android.gms.play-services-measurement-21.1.1\AndroidManifest.xml:26:5-110
+36-->[:com.google.android.gms.play-services-measurement-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\40aa455721f6fa6911731a0723c6e2da\com.google.android.gms.play-services-measurement-21.1.1\AndroidManifest.xml:26:22-107
+37    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+37-->[:com.google.android.gms.play-services-measurement-api-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\28d400dd3e84ddfff1f1b26cec5a3aed\com.google.android.gms.play-services-measurement-api-21.1.1\AndroidManifest.xml:25:5-79
+37-->[:com.google.android.gms.play-services-measurement-api-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\28d400dd3e84ddfff1f1b26cec5a3aed\com.google.android.gms.play-services-measurement-api-21.1.1\AndroidManifest.xml:25:22-76
+38
+39    <application
+39-->C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-126
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[:androidx.core.core-1.2.0:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\4527d81fa1dab2c4adef56282f6f51b4\androidx.core.core-1.2.0\AndroidManifest.xml:24:18-86
+41        android:extractNativeLibs="true"
+41-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:18-50
+42        android:icon="@mipmap/app_icon"
+42-->C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+43        android:label="@string/app_name"
+43-->C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+44        android:roundIcon="@mipmap/app_icon_round" >
+44-->C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:81-123
+45        <activity
+45-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-48:20
+46            android:name="com.unity3d.player.UnityPlayerActivity"
+46-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:13-66
+47            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+47-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:13-194
+48            android:exported="true"
+48-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:13-36
+49            android:hardwareAccelerated="false"
+49-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:13-48
+50            android:launchMode="singleTask"
+50-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:13-44
+51            android:resizeableActivity="false"
+51-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-47
+52            android:screenOrientation="portrait"
+52-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-49
+53            android:theme="@style/UnityThemeSelector" >
+53-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-54
+54            <intent-filter>
+54-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-40:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:17-69
+55-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:17-77
+57-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:27-74
+58            </intent-filter>
+59
+60            <meta-data
+60-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-44:40
+61                android:name="unityplayer.UnityActivity"
+61-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:17-57
+62                android:value="true" />
+62-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:17-37
+63            <meta-data
+63-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-47:40
+64                android:name="android.notch_support"
+64-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:17-53
+65                android:value="true" />
+65-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-37
+66        </activity>
+67
+68        <meta-data
+68-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:9-52:33
+69            android:name="unity.splash-mode"
+69-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:13-45
+70            android:value="0" />
+70-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:13-30
+71        <meta-data
+71-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:9-55:36
+72            android:name="unity.splash-enable"
+72-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-47
+73            android:value="True" />
+73-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-33
+74        <meta-data
+74-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:9-58:36
+75            android:name="unity.launch-fullscreen"
+75-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-51
+76            android:value="True" />
+76-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-33
+77        <meta-data
+77-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:9-61:37
+78            android:name="unity.allow-resizable-window"
+78-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-56
+79            android:value="False" />
+79-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-34
+80        <meta-data
+80-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:9-64:50
+81            android:name="notch.config"
+81-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-40
+82            android:value="portrait|landscape" />
+82-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-47
+83        <meta-data
+83-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:9-67:36
+84            android:name="unity.auto-report-fully-drawn"
+84-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-57
+85            android:value="true" />
+85-->[:unityLibrary] C:\Unity Projects\new\Ball Blast\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-33
+86
+87        <activity
+87-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:27:9-44:20
+88            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+88-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:28:13-80
+89            android:excludeFromRecents="true"
+89-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:29:13-46
+90            android:exported="true"
+90-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:30:13-36
+91            android:launchMode="singleTask"
+91-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:31:13-44
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+92-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:32:13-72
+93            <intent-filter>
+93-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:33:13-43:29
+94                <action android:name="android.intent.action.VIEW" />
+94-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:34:17-69
+94-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:34:25-66
+95
+96                <category android:name="android.intent.category.DEFAULT" />
+96-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:36:17-76
+96-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:36:27-73
+97                <category android:name="android.intent.category.BROWSABLE" />
+97-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:37:17-78
+97-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:37:27-75
+98
+99                <data
+99-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:39:17-42:51
+100                    android:host="firebase.auth"
+100-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:40:21-49
+101                    android:path="/"
+101-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:41:21-37
+102                    android:scheme="genericidp" />
+102-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:42:21-48
+103            </intent-filter>
+104        </activity>
+105        <activity
+105-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:45:9-62:20
+106            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+106-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:46:13-79
+107            android:excludeFromRecents="true"
+107-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:47:13-46
+108            android:exported="true"
+108-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:48:13-36
+109            android:launchMode="singleTask"
+109-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:49:13-44
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+110-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:50:13-72
+111            <intent-filter>
+111-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:51:13-61:29
+112                <action android:name="android.intent.action.VIEW" />
+112-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:34:17-69
+112-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:34:25-66
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:36:17-76
+114-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:36:27-73
+115                <category android:name="android.intent.category.BROWSABLE" />
+115-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:37:17-78
+115-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:37:27-75
+116
+117                <data
+117-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:39:17-42:51
+118                    android:host="firebase.auth"
+118-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:40:21-49
+119                    android:path="/"
+119-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:41:21-37
+120                    android:scheme="recaptcha" />
+120-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:42:21-48
+121            </intent-filter>
+122        </activity>
+123
+124        <service
+124-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:64:9-70:19
+125            android:name="com.google.firebase.components.ComponentDiscoveryService"
+125-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:65:13-84
+126            android:directBootAware="true"
+126-->[:com.google.firebase.firebase-common-20.1.2:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\49613a6b0023c881e9563eadeb7563e5\com.google.firebase.firebase-common-20.1.2\AndroidManifest.xml:21:86-116
+127            android:exported="false" >
+127-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:66:13-37
+128            <meta-data
+128-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:67:13-69:85
+129                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+129-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:68:17-109
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[:com.google.firebase.firebase-auth-21.0.8:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\771b46c3dc7f670691d55658cb727278\com.google.firebase.firebase-auth-21.0.8\AndroidManifest.xml:69:17-82
+131            <meta-data
+131-->[:com.google.android.gms.play-services-measurement-api-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\28d400dd3e84ddfff1f1b26cec5a3aed\com.google.android.gms.play-services-measurement-api-21.1.1\AndroidManifest.xml:31:13-33:85
+132                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+132-->[:com.google.android.gms.play-services-measurement-api-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\28d400dd3e84ddfff1f1b26cec5a3aed\com.google.android.gms.play-services-measurement-api-21.1.1\AndroidManifest.xml:32:17-139
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[:com.google.android.gms.play-services-measurement-api-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\28d400dd3e84ddfff1f1b26cec5a3aed\com.google.android.gms.play-services-measurement-api-21.1.1\AndroidManifest.xml:33:17-82
+134            <meta-data
+134-->[:com.google.firebase.firebase-database-20.0.6:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\0750d415d042e12aa5a27e80f41b2a17\com.google.firebase.firebase-database-20.0.6\AndroidManifest.xml:32:13-34:85
+135                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+135-->[:com.google.firebase.firebase-database-20.0.6:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\0750d415d042e12aa5a27e80f41b2a17\com.google.firebase.firebase-database-20.0.6\AndroidManifest.xml:33:17-109
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[:com.google.firebase.firebase-database-20.0.6:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\0750d415d042e12aa5a27e80f41b2a17\com.google.firebase.firebase-database-20.0.6\AndroidManifest.xml:34:17-82
+137            <meta-data
+137-->[:com.google.firebase.firebase-installations-17.0.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\d575652e0196f6e060dfc7efd05108d5\com.google.firebase.firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+138                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+138-->[:com.google.firebase.firebase-installations-17.0.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\d575652e0196f6e060dfc7efd05108d5\com.google.firebase.firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[:com.google.firebase.firebase-installations-17.0.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\d575652e0196f6e060dfc7efd05108d5\com.google.firebase.firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+140        </service>
+141
+142        <receiver
+142-->[:com.google.android.gms.play-services-measurement-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\40aa455721f6fa6911731a0723c6e2da\com.google.android.gms.play-services-measurement-21.1.1\AndroidManifest.xml:29:9-33:20
+143            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+143-->[:com.google.android.gms.play-services-measurement-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\40aa455721f6fa6911731a0723c6e2da\com.google.android.gms.play-services-measurement-21.1.1\AndroidManifest.xml:30:13-85
+144            android:enabled="true"
+144-->[:com.google.android.gms.play-services-measurement-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\40aa455721f6fa6911731a0723c6e2da\com.google.android.gms.play-services-measurement-21.1.1\AndroidManifest.xml:31:13-35
+145            android:exported="false" >
+145-->[:com.google.android.gms.play-services-measurement-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\40aa455721f6fa6911731a0723c6e2da\com.google.android.gms.play-services-measurement-21.1.1\AndroidManifest.xml:32:13-37
+146        </receiver>
+147
+148        <service
+148-->[:com.google.android.gms.play-services-measurement-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\40aa455721f6fa6911731a0723c6e2da\com.google.android.gms.play-services-measurement-21.1.1\AndroidManifest.xml:35:9-38:40
+149            android:name="com.google.android.gms.measurement.AppMeasurementService"
+149-->[:com.google.android.gms.play-services-measurement-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\40aa455721f6fa6911731a0723c6e2da\com.google.android.gms.play-services-measurement-21.1.1\AndroidManifest.xml:36:13-84
+150            android:enabled="true"
+150-->[:com.google.android.gms.play-services-measurement-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\40aa455721f6fa6911731a0723c6e2da\com.google.android.gms.play-services-measurement-21.1.1\AndroidManifest.xml:37:13-35
+151            android:exported="false" />
+151-->[:com.google.android.gms.play-services-measurement-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\40aa455721f6fa6911731a0723c6e2da\com.google.android.gms.play-services-measurement-21.1.1\AndroidManifest.xml:38:13-37
+152        <service
+152-->[:com.google.android.gms.play-services-measurement-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\40aa455721f6fa6911731a0723c6e2da\com.google.android.gms.play-services-measurement-21.1.1\AndroidManifest.xml:39:9-43:72
+153            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+153-->[:com.google.android.gms.play-services-measurement-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\40aa455721f6fa6911731a0723c6e2da\com.google.android.gms.play-services-measurement-21.1.1\AndroidManifest.xml:40:13-87
+154            android:enabled="true"
+154-->[:com.google.android.gms.play-services-measurement-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\40aa455721f6fa6911731a0723c6e2da\com.google.android.gms.play-services-measurement-21.1.1\AndroidManifest.xml:41:13-35
+155            android:exported="false"
+155-->[:com.google.android.gms.play-services-measurement-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\40aa455721f6fa6911731a0723c6e2da\com.google.android.gms.play-services-measurement-21.1.1\AndroidManifest.xml:42:13-37
+156            android:permission="android.permission.BIND_JOB_SERVICE" />
+156-->[:com.google.android.gms.play-services-measurement-21.1.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\40aa455721f6fa6911731a0723c6e2da\com.google.android.gms.play-services-measurement-21.1.1\AndroidManifest.xml:43:13-69
+157
+158        <provider
+158-->[:com.google.firebase.firebase-common-20.1.2:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\49613a6b0023c881e9563eadeb7563e5\com.google.firebase.firebase-common-20.1.2\AndroidManifest.xml:20:5-233
+159            android:name="com.google.firebase.provider.FirebaseInitProvider"
+159-->[:com.google.firebase.firebase-common-20.1.2:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\49613a6b0023c881e9563eadeb7563e5\com.google.firebase.firebase-common-20.1.2\AndroidManifest.xml:20:15-79
+160            android:authorities="com.DegenerationX.BallBlast.firebaseinitprovider"
+160-->[:com.google.firebase.firebase-common-20.1.2:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\49613a6b0023c881e9563eadeb7563e5\com.google.firebase.firebase-common-20.1.2\AndroidManifest.xml:20:80-150
+161            android:directBootAware="true"
+161-->[:com.google.firebase.firebase-common-20.1.2:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\49613a6b0023c881e9563eadeb7563e5\com.google.firebase.firebase-common-20.1.2\AndroidManifest.xml:20:151-181
+162            android:exported="false"
+162-->[:com.google.firebase.firebase-common-20.1.2:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\49613a6b0023c881e9563eadeb7563e5\com.google.firebase.firebase-common-20.1.2\AndroidManifest.xml:20:182-206
+163            android:initOrder="100" />
+163-->[:com.google.firebase.firebase-common-20.1.2:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\49613a6b0023c881e9563eadeb7563e5\com.google.firebase.firebase-common-20.1.2\AndroidManifest.xml:20:207-230
+164
+165        <meta-data
+165-->[:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\dae4d6ab41d2d582b03ac5a214336f6a\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+166            android:name="com.google.android.gms.version"
+166-->[:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\dae4d6ab41d2d582b03ac5a214336f6a\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+167            android:value="@integer/google_play_services_version" />
+167-->[:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\dae4d6ab41d2d582b03ac5a214336f6a\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+168
+169        <activity
+169-->[:com.google.android.gms.play-services-auth-16.0.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\0c3efd516256d059821ee66da8d14b44\com.google.android.gms.play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+170            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+170-->[:com.google.android.gms.play-services-auth-16.0.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\0c3efd516256d059821ee66da8d14b44\com.google.android.gms.play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+171            android:excludeFromRecents="true"
+171-->[:com.google.android.gms.play-services-auth-16.0.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\0c3efd516256d059821ee66da8d14b44\com.google.android.gms.play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+172            android:exported="false"
+172-->[:com.google.android.gms.play-services-auth-16.0.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\0c3efd516256d059821ee66da8d14b44\com.google.android.gms.play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+173            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+173-->[:com.google.android.gms.play-services-auth-16.0.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\0c3efd516256d059821ee66da8d14b44\com.google.android.gms.play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+174        <!--
+175            Service handling Google Sign-In user revocation. For apps that do not integrate with
+176            Google Sign-In, this service will never be started.
+177        -->
+178        <service
+178-->[:com.google.android.gms.play-services-auth-16.0.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\0c3efd516256d059821ee66da8d14b44\com.google.android.gms.play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+179            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+179-->[:com.google.android.gms.play-services-auth-16.0.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\0c3efd516256d059821ee66da8d14b44\com.google.android.gms.play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+180            android:exported="true"
+180-->[:com.google.android.gms.play-services-auth-16.0.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\0c3efd516256d059821ee66da8d14b44\com.google.android.gms.play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+181            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+181-->[:com.google.android.gms.play-services-auth-16.0.1:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\0c3efd516256d059821ee66da8d14b44\com.google.android.gms.play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+182
+183        <activity
+183-->[:com.google.android.gms.play-services-base-18.1.0:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\2fe805d0724c6f9ee6d19b9f01d50392\com.google.android.gms.play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+184            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+184-->[:com.google.android.gms.play-services-base-18.1.0:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\2fe805d0724c6f9ee6d19b9f01d50392\com.google.android.gms.play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+185            android:exported="false"
+185-->[:com.google.android.gms.play-services-base-18.1.0:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\2fe805d0724c6f9ee6d19b9f01d50392\com.google.android.gms.play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+186            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+186-->[:com.google.android.gms.play-services-base-18.1.0:] C:\Users\yashd\.gradle\caches\transforms-2\files-2.1\2fe805d0724c6f9ee6d19b9f01d50392\com.google.android.gms.play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+187    </application>
+188
+189</manifest>
